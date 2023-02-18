@@ -7,3 +7,4 @@ A read me for all files created in this directory
 5-printf.c prints a string with printf
 6-size.c prints sizes of data types in 32 bit
 100-intel diesplays assembly file in intel version
+101-quote.c prints a text without printf or any puts type of function
