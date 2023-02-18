@@ -5,3 +5,4 @@ A read me for all files created in this directory
 3-name compiles an executed file
 4-puts.c prints a string using the put variable
 5-printf.c prints a string with printf
+6-size.c prints sizes of data types in 32 bit and 64 bit systems
