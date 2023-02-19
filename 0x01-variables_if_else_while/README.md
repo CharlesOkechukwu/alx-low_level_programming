@@ -3,3 +3,4 @@ A read me for 0x01-variables_if_else_while directory
 1-last_digit.c gets the last digit of a number and checks if it is 0, greater than 5 or not zero and less than 6
 2-print_alphabet.c prints all the alphabets in lowercase with a new line
 3-print_alphabets.c prints all alphabets in small letters and the capital letters
+4-print_alphabt.c print all alphabets in small letters except e and q
