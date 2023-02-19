@@ -5,3 +5,4 @@ A read me for 0x01-variables_if_else_while directory
 3-print_alphabets.c prints all alphabets in small letters and the capital letters
 4-print_alphabt.c print all alphabets in small letters except e and q
 5-print_numbers.c prints all single digit in base 10
+7-print_tebahpla.c prints the alphabets in reverse order
