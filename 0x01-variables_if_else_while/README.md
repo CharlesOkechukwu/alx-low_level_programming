@@ -8,3 +8,4 @@ A read me for 0x01-variables_if_else_while directory
 7-print_tebahpla.c prints the alphabets in reverse order
 8-print_base16.c prints all the number in base 16
 9-print_comb.c prints all single digit numbers separated by comma and spaces
+102-print_comb5.c prints combination of 2 2 digit numbers
