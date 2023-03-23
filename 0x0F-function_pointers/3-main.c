@@ -10,7 +10,7 @@
  * Return: int
  */
 
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int (*p)(int, int);
 	char *ag;
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	p = get_op_func(argv[2]);
-	if (!p)
+	if (p == NULL || ag[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
