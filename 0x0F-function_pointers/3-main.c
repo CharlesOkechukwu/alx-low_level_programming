@@ -13,7 +13,9 @@
 int main(int argc, char *argv[])
 {
 	int (*p)(int, int);
+	char *ag;
 
+	ag = argv[2];
 	if (argc != 4)
 	{
 		printf("Error\n");
@@ -24,6 +26,11 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		exit(99);
+	}
+	if ((*ag == '/' && argv[3] == 0) || (*ag == '%' && argv[3] == 0))
+	{
+		printf("Error\n");
+		exit(100);
 	}
 	printf("%d\n", p(atoi(argv[1]), atoi(argv[3])));
 	return (0);
