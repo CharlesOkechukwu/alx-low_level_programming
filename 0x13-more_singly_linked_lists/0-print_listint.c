@@ -15,11 +15,6 @@ size_t print_listint(const listint_t *h)
 	size_t count = 0;
 
 	temp = h;
-	if (temp == NULL)
-	{
-		printf("Error\n");
-		return (1);
-	}
 	while (temp != NULL)
 	{
 		printf("%d\n", temp->n);
