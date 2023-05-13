@@ -42,7 +42,7 @@ void cpy_file(const char *file_from, const char *file_to)
 		exit(98);
 	}
 	append = S_IRUSR | S_IWUSR | S_IRGRP | S_IRGRP | S_IWGRP | S_IROTH;
-	op2 = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, append);
+	op2 = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, append);
 	wr = write(op2, buffer, rd);
 	if (wr == -1 || op2 == -1)
 	{
