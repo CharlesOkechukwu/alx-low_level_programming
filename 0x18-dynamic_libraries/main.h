@@ -1,5 +1,8 @@
-#ifndef _DYNAMIC_
-#define _DYNAMIC_
+#ifndef _DYNAMIC_lb
+#define _DYNAMIC_lb
+
+#include <stddef.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 int _islower(int c);
